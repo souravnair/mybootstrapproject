@@ -1,6 +1,14 @@
 .navbar-dark{
-    background-color:#512DA8;
+    background-color:#2C003E;
 }
 .text-center a{
     padding-right: 15%;
+}
+.jumbotron{
+    background-color: #512b58;
+    border-radius:0;
+}
+.btn-block {
+    display: block;
+    width: 35%;
 }
