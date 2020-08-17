@@ -12,3 +12,11 @@
     display: block;
     width: 35%;
 }
+
+
+.tab-content{
+    border-bottom:solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+    border-left: solid 1px #dddddd;
+
+}
