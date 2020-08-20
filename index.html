@@ -143,7 +143,7 @@
             </div>
         </div>
     </div>
-    <header class="jumbotron text-light" style="background-color:#512b58;border-radius: 0%;">
+    <header class="jumbotron text-light" style="border-radius: 0%;">
          <div class="container">
              <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -421,53 +421,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
-   <!--script> //script for tooltip
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
-    });
-    </script-->
-   <!--script>
-     $(document).ready(function(){
-            $("#myCarousel").carousel( { interval: 2000 } );
-            $("#carousel-pause").click(function(){                               //script foe two buttons "pause" and "play"
-                $("#myCarousel").carousel('pause');
-            });
-            $("#carousel-play").click(function(){
-                $("#myCarousel").carousel('cycle');
-            });
-        });
-   </script-->
-   <script>
-       $(document).ready(function(){
-           $("#myCarousel").carousel({interval:2000});
-           $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#myCarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }                                                                                //script for one button which can interchange b/w pause and play
-                else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                    $("#myCarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');                    
-                }
-            });
-       });
-
-      $(document).ready(function(){
-            $("#loginForm").click(function(){                   //script for login modal
-                $("#loginModal").modal("show")
-            })
-            });
-
-     $(document).ready(function(){
-     $("#reserveForm").click(function(){                        //script for reserveTable modal
-     $("#reserveTable").modal("show")
-            })
-            }); 
-
-   </script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
